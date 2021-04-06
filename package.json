@@ -4,15 +4,13 @@
   "description": "Integration of Susi AI to Gitter messenger",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && node index.js"
+    "start": "npm install dotenv@^5.0.1 http@0.0.0 && node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fossasia/susi_gitterbot.git"
   },
   "dependencies": {
-    "dotenv": "^5.0.1",
-    "http": "0.0.0",
     "https": "^1.0.0",
     "request": "^2.81.0"
   },
